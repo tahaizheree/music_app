@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "hd-apple-itunes-music-app-logo-icon-png-701751694777115nww0wcplip-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

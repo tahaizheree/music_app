@@ -58,6 +58,11 @@
 			path = MusicAppUITests;
 			sourceTree = "<group>";
 		};
+		D78FACCE2E7AD51A0037A0EC /* Sounds */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 		D78FAC222E79A9670037A0EC = {
 			isa = PBXGroup;
 			children = (
+				D78FACCE2E7AD51A0037A0EC /* Sounds */,
 				D78FAC2D2E79A9670037A0EC /* MusicApp */,
 				D78FAC472E79A96C0037A0EC /* MusicAppTests */,
 				D78FAC512E79A96C0037A0EC /* MusicAppUITests */,
@@ -122,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				D78FAC2D2E79A9670037A0EC /* MusicApp */,
+				D78FACCE2E7AD51A0037A0EC /* Sounds */,
 			);
 			name = MusicApp;
 			packageProductDependencies = (
