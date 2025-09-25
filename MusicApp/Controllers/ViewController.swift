@@ -46,10 +46,23 @@ class ViewController: UIViewController {
         allSongsTableView.showsVerticalScrollIndicator = false
         
         
+      
+
         SongManager.homeDelegate = self
     }
     
     
+    override func viewWillAppear(_ animated: Bool) {
+     
+        super.viewWillAppear(animated)
+      print("1")
+        DispatchQueue.main.sync {
+            print("3")
+        }
+        print("4")
+        
+
+    }
     
     
     @IBAction func playerPlayButtonPressed(_ sender: UIButton) {

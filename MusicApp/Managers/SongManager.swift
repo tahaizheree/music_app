@@ -72,7 +72,7 @@ class SongManager {
                     playSound(soundName: name )
                     songPlaying = name
                     updateDuration()
-                } else if(name != songPlaying) {
+                } else if name != songPlaying  {
                     songPlaying = name
                     homeDelegate?.songUIChange(songName: name)
                     playSound(soundName: name )
